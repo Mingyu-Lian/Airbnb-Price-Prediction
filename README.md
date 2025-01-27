@@ -1,12 +1,14 @@
 # Airbnb Price Prediction Project
 The project involved analyzing Airbnb rental data in Sydney to assist stakeholders, including hosts and real estate investors, in making informed decisions. It consisted of two key tasks: building a predictive model for vacation rental prices using supervised learning techniques and extracting actionable insights from the data to help stakeholders optimize their rental strategies.
-## Predictive Model Development:
-I implemented multiple supervised regression models, including Ridge Regression and XGBoost, to predict daily rental prices. After extensive hyperparameter tuning and validation, XGBoost was selected as the final model due to its high accuracy (lowest RMSE of 0.371 on validation data). The Ridge Regression model was also utilized for its interpretability, offering key insights into the factors influencing prices.
 
 ## Data Processing and Feature Engineering:
 
 Cleaned and preprocessed the dataset by handling missing values and transforming variables for better model performance.
 Engineered new features such as distance to Sydney's center, log-transformed prices for normality, and word frequency analysis for text fields like property descriptions.
+
+## Predictive Model Development:
+I implemented multiple supervised regression models, including Ridge Regression and XGBoost, to predict daily rental prices. After extensive hyperparameter tuning and validation, XGBoost was selected as the final model due to its high accuracy (lowest RMSE of 0.371 on validation data). The Ridge Regression model was also utilized for its interpretability, offering key insights into the factors influencing prices.
+
 
 ## Actionable Insights:
 Bathroom Count: Properties with more bathrooms achieve higher prices.
